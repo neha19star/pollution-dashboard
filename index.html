@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maharashtra Pollution Dashboard</title>
+
+  <!-- CSS Linking -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+</head>
+
+ 
+
+ 
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌿 Maharashtra Pollution Insight</div>
+      <ul class="nav-links">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#noise">Noise</a></li>
+        <li><a href="#air">Air</a></li>
+        <li><a href="#water">Water</a></li>
+        <li><a href="#soil">Soil</a></li>
+       
+
+
+
+      </ul>
+    </nav>
+  </header>
+
+ <!-- Hero Section --> <section class="hero"> <h1>Visualizing Maharashtra’s Pollution Insights</h1> <p>Explore interactive dashboards highlighting the environmental condition of air, water, soil, and noise pollution across Maharashtra.</p> <a href="#noise" class="explore-btn">Start Exploring</a> </section>
+
+<!-- 🌿 Hero Section -->
+<section id="hero" class="hero" style="display: flex;">
+  <div class="hero-text">
+    <h1>Visualizing Maharashtra’s Pollution Insights</h1>
+    <p>
+      Explore interactive dashboards highlighting the environmental condition
+      of <b>air</b>, <b>water</b>, <b>soil</b>, and <b>noise</b> pollution across Maharashtra.
+    </p>
+    <a href="#intro" class="explore-btn">Start Exploring</a>
+  </div>
+</section>
+
+<!-- 🌍 Project Introduction -->
+<section id="intro" style="
+  background: linear-gradient(to right, #e2f9ef, #bdf4d7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 100px 12%;
+  color: #004d40;
+  border-radius: 20px;
+  line-height: 1.8;
+">
+  <h2 style="font-size: 2.8em; color: #007f5f; margin-bottom: 25px; text-decoration: underline;">
+    📊 Project Introduction
+  </h2>
+  <p style="max-width: 900px; font-size: 1.40em; margin-bottom: 20px;">
+    This interactive dashboard visualizes Maharashtra’s environmental conditions using authentic datasets and Tableau integration. 
+    It combines <b>data science</b>, <b>visual storytelling</b>, and <b>web design</b> to create an impactful experience.
+  </p>
+
+  <ul style="list-style: none; font-size: 1.40em; margin-top: 20px;">
+    <li>🌐 <b>Data Source:</b> Maharashtra Government’s Open Data Portal and verified environmental records.</li>
+    <li>🧩 <b>Data Preparation:</b> Raw data refined in Excel & Python for consistency and accuracy.</li>
+    <li>📊 <b>Visualization:</b> Dashboards designed in Tableau Public for all pollution types.</li>
+    <li>💻 <b>Integration:</b> Embedded Tableau visualizations seamlessly into this responsive website.</li>
+    <li>🎯 <b>Goal:</b> Spread awareness through clear, data-backed visual insights.</li>
+    <li>🚀 <b>Tools Used:</b> Tableau • HTML • CSS • JavaScript • Excel • Python</li>
+  </ul>
+</section>
+
+
+
+<!-- Noise Pollution Section -->
+<section id="noise" class="section" style="display:flex;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;padding:40px 20px;background:linear-gradient(135deg,#f3e5ab,#f5deb3);color:#003300;font-family:'Poppins',sans-serif;">
+  <div class="text-box" style="flex:1 1 400px;padding:20px;max-width:500px;animation:slideIn 1s ease-in-out;">
+    <h3 style="color:#6b4f1d;font-size:1.8em;margin-bottom:10px;"><u>Noise Pollution</u></h3>
+    <ul style="list-style-type:'🔊 ';padding-left:20px;line-height:1.7;color:#5c3a00;font-size:1.70em;">
+      <li>Major sources include traffic, construction, and industrial machinery.</li>
+      <li>Continuous exposure above <b>85 dB</b> can damage hearing permanently.</li>
+      <li>Leads to stress, disturbed sleep, and reduced concentration levels.</li>
+      <li>Urban cities like <b>Mumbai</b> and <b>Pune</b> record extreme levels during festivals.</li>
+      <li>Government enforces <b>strict noise regulations</b> to reduce public disturbance.</li>
+    </ul>
+  </div>
+
+
+
+  <!-- Updated Tableau Dashboard -->
+  <div class="dashboard-box" style="flex:1 1 600px;text-align:center;padding:10px;">
+    <div class='tableauPlaceholder' id='vizNoise' style='position:relative;width:100%;height:600px;overflow:hidden;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform 0.3s ease;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Noise Pollution Analysis in Maharashtra (2019–2025)' 
+               src='https://public.tableau.com/static/images/8X/8XZDJQGQ6/1_rss.png' 
+               style='border:none;' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared/8XZDJQGQ6' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/8X/8XZDJQGQ6/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('vizNoise');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      if (divElement.offsetWidth > 800) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '750px';
+      } else if (divElement.offsetWidth > 500) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '600px';
+      } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '450px';
+      }
+          </script>
+
+
+  </div>
+</section>
+
+<!-- Air Pollution Section -->
+<!-- Air Pollution Section -->
+<section id="air" class="section" style="display:flex;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;padding:40px 20px;background:linear-gradient(135deg,#f3e5ab,#f5deb3);color:#003300;font-family:'Poppins',sans-serif;">
+
+  
+  <!-- Left Text Content -->
+  <div class="text-box" style="flex:1 1 400px;padding:20px;max-width:500px;animation:slideIn 1s ease-in-out;">
+    <h3 style="color:#01579b;font-size:1.8em;margin-bottom:10px;"><u>Air Pollution in Maharashtra</u></h3>
+    <p style="font-size:1.3em;line-height:1.7;color:#002b45;text-align:justify;margin-bottom:15px;">
+      Air pollution is one of the major environmental issues affecting Maharashtra. It mainly results from vehicular emissions,
+      industrial discharge, and burning of waste materials. This dashboard provides district-wise insights into 
+      <b>PM2.5</b>, <b>NO<sub>2</sub></b>, and <b>SO<sub>2</sub></b> concentration levels across different regions.
+    </p>
+    <ul style="list-style-type:'☁️ ';padding-left:20px;line-height:1.7;color:#01426a;font-size:1.3em;">
+      <li>Explore pollutant trends in different cities.</li>
+      <li>Understand <b>seasonal variations</b> in air quality.</li>
+      <li>Identify districts with highest and lowest <b>AQI levels</b>.</li>
+      <li>Analyze air pollution trends over time.</li>
+      <li>Promote awareness for <b>clean air initiatives</b>.</li>
+    </ul>
+  </div>
+
+  <!-- Right Tableau Dashboard -->
+  <div class="dashboard-box" style="flex:1 1 600px;text-align:center;padding:10px;">
+    <div class='tableauPlaceholder' id='vizAirPollution' style='position:relative;width:100%;height:650px;overflow:hidden;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform 0.3s ease;'>
+      <noscript>
+        <a href='#'>
+          <img alt='AIR Pollution in Maharashtra' 
+               src='https://public.tableau.com/static/images/Ai/AirpollutioninMaharashtra/AIRPollutioninMaharashtra/1_rss.png' 
+               style='border:none;' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='embed_code_version' value='3' /> 
+        <param name='site_root' value='' />
+        <param name='name' value='AirpollutioninMaharashtra&#47;AIRPollutioninMaharashtra' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Ai/AirpollutioninMaharashtra/AIRPollutioninMaharashtra/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('vizAirPollution');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      if (divElement.offsetWidth > 800) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '750px';
+      } else if (divElement.offsetWidth > 500) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '600px';
+      } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '450px';
+      }
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+</section>
+
+
+<!-- Water Pollution Section -->
+<section id="water" class="section" style="display:flex;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;padding:40px 20px;background:linear-gradient(135deg,#b3e5fc,#81d4fa);color:#003300;font-family:'Poppins',sans-serif;">
+  
+  <!-- Text Content -->
+  <div class="text-box" style="flex:1 1 400px;padding:20px;max-width:500px;animation:slideIn 1s ease-in-out;">
+    <h3 style="color:#004d40;font-size:1.8em;margin-bottom:10px;"><u>Water Pollution</u></h3>
+    <ul style="list-style-type:'💧 ';padding-left:20px;line-height:1.7;color:#004d40;font-size:1.6em;">
+      <li>Caused by industrial waste, sewage, and agricultural runoff.</li>
+      <li>Contaminates major rivers like Godavari and Krishna.</li>
+      <li>Leads to health issues and affects aquatic ecosystems.</li>
+      <li>Major urban areas face challenges in water treatment and supply.</li>
+      <li>Government projects focus on <b>Clean Water Mission</b> and pollution monitoring.</li>
+    </ul>
+  </div>
+
+  <!-- Tableau Dashboard -->
+  <div class="dashboard-box" style="flex:1 1 600px;text-align:center;padding:10px;">
+    <div class='tableauPlaceholder' id='vizWaterPollution' style='position:relative;width:100%;height:600px;overflow:hidden;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform 0.3s ease;'>
+      <noscript>
+        <a href='#'>
+          <img alt='WATER POLLUTION VISUALIZATION'
+            src='https://public.tableau.com/static/images/FI/FINALEVSDASHBOARD1/Dashboard1/1_rss.png'
+            style='border:none;'/>
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+        <param name='embed_code_version' value='3'/>
+        <param name='site_root' value=''/>
+        <param name='name' value='FINALEVSDASHBOARD1/Dashboard1'/>
+        <param name='tabs' value='no'/>
+        <param name='toolbar' value='yes'/>
+        <param name='static_image' value='https://public.tableau.com/static/images/FI/FINALEVSDASHBOARD1/Dashboard1/1.png'/>
+        <param name='animate_transition' value='yes'/>
+        <param name='display_static_image' value='yes'/>
+        <param name='display_spinner' value='yes'/>
+        <param name='display_overlay' value='yes'/>
+        <param name='display_count' value='yes'/>
+        <param name='language' value='en-US'/>
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('vizWaterPollution');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '600px';
+     
+    </script>
+  </div>
+
+</section>
+
+  
+
+
+
+<!-- Soil Pollution Section -->
+<section id="soil" class="section" style="display:flex;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;padding:40px 20px;background:linear-gradient(135deg,#c9f7e8,#a3e6d4);color:#003300;font-family:'Poppins',sans-serif;">
+  <div class="text-box" style="flex:1 1 400px;padding:20px;max-width:500px;animation:slideIn 1s ease-in-out;">
+    <h3 style="color:#00695c;font-size:1.8em;margin-bottom:10px;"><u>Soil Pollution</u></h3>
+    <ul style="list-style-type:'🌱 ';padding-left:20px;line-height:1.7;color:#004d40;font-size:1.70em;">
+      <li>Soil pollution occurs when <b>toxic</b> chemicals or <b>heavy metals</b> contaminate the land.</li>
+      <li>Major sources include industrial waste, pesticides, fertilizers, and landfills.</li>
+      <li>Contaminated soil affects crops, groundwater, and overall ecosystem health.</li>
+      <li>In Maharashtra, <b>urbanization</b> and <b>chemical</b> industries are key contributors.</li>
+      <li>Proper <b>waste segregation and organic farming </b> can reduce soil degradation.</li>
+    </ul>
+
+  </div>
+
+
+  <div class="dashboard-box" style="flex:1 1 600px;text-align:center;padding:10px;">
+    <div class='tableauPlaceholder' id='viz1762706490442' style='position: relative;width:100%;height:600px;overflow:hidden;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform 0.3s ease;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Dashboard 1' src='https://public.tableau.com/static/images/FH/FHP35PFBD/1_rss.png' style='border:none;' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;FHP35PFBD' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/FH/FHP35PFBD/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1762706490442');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      if (divElement.offsetWidth > 800) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '750px';
+      } else if (divElement.offsetWidth > 500) {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '600px';
+      } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '450px';
+      }
+     
+    </script>
+
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pollution Data Visualization | EVS PROJECT| SY IT</p>
+  </footer>
+
+  <script type="text/javascript">
+    function resizeTableau() {
+      var divElement = document.getElementById("vizNoise");
+      var vizElement = divElement.getElementsByTagName("object")[0];
+
+      if (window.innerWidth >= 1200) {
+        vizElement.style.width = "100%";
+        vizElement.style.height = "700px";
+      } else if (window.innerWidth >= 768) {
+        vizElement.style.width = "100%";
+        vizElement.style.height = "550px";
+      } else {
+        vizElement.style.width = "100%";
+        vizElement.style.height = "400px";
+      }
+
+      if (!divElement.querySelector("script")) {
+       
+      }
+    }
+
+    window.addEventListener("load", resizeTableau);
+    window.addEventListener("resize", resizeTableau);
+  </script>
+
+<script>
+  // Show only one section at a time
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  function showSection(id) {
+    sections.forEach(sec => {
+      if (sec.id === id) {
+        sec.style.display = "flex";
+      } else {
+        sec.style.display = "none";
+      }
+    });
+  }
+
+  // When nav link is clicked
+  navLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute("href").substring(1);
+      showSection(targetId);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+
+  // Show intro section by default
+  showSection("intro");
+</script>
+
+<script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  function showSection(id) {
+    sections.forEach(sec => {
+      if (sec.id === id) {
+        sec.style.display = "flex";
+      } else {
+        sec.style.display = "none";
+      }
+    });
+  }
+
+  // Handle navigation clicks
+  navLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute("href").substring(1);
+      showSection(targetId);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+
+  // Hero "Start Exploring" button click → go to intro
+  document.querySelector(".explore-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    showSection("intro");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // Show hero section by default
+  showSection("hero");
+</script>
+
+</body>
+</html>
